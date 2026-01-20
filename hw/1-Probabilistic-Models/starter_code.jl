@@ -2,6 +2,8 @@ import DMUStudent.HW1
 
 #------------- 
 # Problem 4
+#
+# Author: Emily Maxwell Outland
 #-------------
 
 # Here is a functional but incorrect answer for the programming question
