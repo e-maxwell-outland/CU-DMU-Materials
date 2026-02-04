@@ -1,5 +1,5 @@
 """
-© 2025 Emily Maxwell Outland <emily.maxwell@colorado.edu>
+© 2026 Emily Maxwell Outland <emily.maxwell@colorado.edu>
 License: BSD-3-Clause
 
 hw1_code.jl
