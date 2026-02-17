@@ -248,7 +248,7 @@ println("Fixed (19,19): mean=$(round(mean_mcts_fixed, digits=2)), SEM=$(round(se
 function simulate6!(mdp,
                     Q_dict::Dict{Tuple{S,A}, Float64},
                     N_dict::Dict{Tuple{S,A}, Int},
-                    s::S, d=20, c=50.0) where {S,A}
+                    s::S, d=20, c=75.0) where {S,A}
 
     if isterminal(mdp, s) || d <= 0
         return 0.0
