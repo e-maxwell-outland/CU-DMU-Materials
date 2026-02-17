@@ -1,0 +1,6 @@
+[deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+D3Trees = "e3df1716-f71e-5df9-9e2d-98e193103c45"
+DMUStudent = "a176809d-bc77-421e-b60b-7b215d415e6e"
+POMDPs = "a93abf59-7444-517b-a68a-c42f96afdd7d"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
