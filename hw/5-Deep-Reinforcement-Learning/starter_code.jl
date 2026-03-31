@@ -17,7 +17,7 @@ differ from this considerably.
 =#
 
 ############
-# Question 1
+# Question 2
 ############
 
 # The tiger problem from http://www.sciencedirect.com/science/article/pii/S000437029800023X can be expressed with:
@@ -76,12 +76,6 @@ tiger = QuickPOMDP(
 policy = FunctionPolicy(o->rand(POMDPs.actions(tiger)))
 sim = RolloutSimulator(max_steps=100)
 @show @time mean(POMDPs.simulate(sim, tiger, policy) for _ in 1:10_000)
-
-############
-# Question 2
-############
-
-# The notebook at https://github.com/zsunberg/CU-DMU-Materials/blob/master/notebooks/110-Neural-Networks.jl can serve as a starting point for this problem.
 
 ############
 # Question 3
